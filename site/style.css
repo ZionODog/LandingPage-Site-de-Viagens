@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Fundo*/
+
+body{
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(/img/torre\ eiffel\ 05.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 7vh;
+}
+
+/*Header*/
+
+.menu-content{
+    padding: 15px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+    cursor: pointer;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.menu-content .lista-do-menu{
+    color: white;
+    padding: 8px 12px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .lista-do-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+    /*preparação do efeito efeito*/
+    transform: 200ms;
+}
+
+.menu-content .lista-do-menu a:hover{
+    content: '';
+    color: grey;
+    background-color: white;
+}
+
+/*Meio*/
+
+main{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto-principal{
+    color: white;
+    gap: 0.5rem;
+}
+
+/*botões*/
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.links a{
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin-top: 20px;
+    /*preparação do efeito efeito*/
+    transform: 200ms;
+}
+
+.links a:hover{
+    content: '';
+    color: grey;
+    background-color: white;
+}
